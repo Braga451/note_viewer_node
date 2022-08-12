@@ -1,0 +1,131 @@
+#area-config{
+  border: 1px solid #fff;
+  display:flex;
+  height: 100%;
+  width: 75%;
+  justify-content: space-between;
+  min-height: 75vh;
+  flex-wrap: wrap;
+}
+
+#area-config button{
+  border: none;
+  width: 10vw;
+  border-radius: 40px;
+  background-color: #359E47;
+  padding: 1%;
+  transition: transform 0.5s;
+}
+
+#area-config button:hover{
+  transform: scale(1.25);
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+#back-delete-column{
+  display: flex;
+  flex-flow: column;
+  max-height: 100%;
+}
+
+#delete-account{
+  margin-top: auto;
+  margin-left: 1vw;
+  width: 10vw;
+  border-radius: 40px;
+  background-color: #359E47;
+  padding: 1%;
+  min-width: 133px;
+  margin-bottom: 1vh;
+}
+
+#back-delete-column a{
+  color: black;
+}
+
+#back{
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  margin-left: 1vw;
+  min-width: 122px;
+}
+
+#forms-modify-user{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  max-width: 100%;
+}
+
+
+#default-user-img:hover{
+  cursor: pointer;
+}
+
+#forms-modify-user input[type="file"]{
+  display:none;
+}
+
+#form-itens{
+  display:flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+}
+
+#forms-modify-user label{
+  margin-bottom: 10vh;
+}
+
+#logout-column button{
+  margin-right: 1vw;
+  margin-top: 1vh;
+}
+
+#form-itens input[type="submit"]{
+  border: none;
+  width: 10vw;
+  border-radius: 40px;
+  background-color: #359E47;
+  padding: 1%;
+  min-width: 141px;
+  color:black;
+  transition: transform 0.5s;
+}
+
+#form-itens input[type="submit"]:hover{
+  transform: scale(1.25);
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+#form-itens input{
+  width: 100%;
+  margin-bottom: 10vh;
+  text-align: center;
+  color:green;
+}
+
+#default-user-img{
+  margin-top: 50%;
+}
+
+@media only screen and (max-width: 1251px){
+  #area-config{
+    flex-flow: column;
+  }
+  #back-delete-column{
+    align-items: center;
+    margin-bottom: 2vh;
+  }
+  #logout-column{
+    display:flex;
+    justify-content: center;
+  }
+  #logout-column button{
+    min-width: 82px;
+    margin-bottom: 1vh;
+  }
+}

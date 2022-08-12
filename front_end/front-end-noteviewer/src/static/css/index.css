@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Press+Start+2P&display=swap');
+
+#img-logo{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+#img-logo img{
+    width: 500px;
+    height: 500px;
+}
+
+#arrow-back-button {
+  width: 10%;
+  margin-left: 1vw;
+}
+
+#arrow-back-button img{
+  width: 45px;
+}
+
+@media only screen and (max-width:1024px){
+    #img-logo{
+        border-right: none;
+    }
+    #img-logo img{
+        width: 250px;
+        height: 250px;
+    }
+  }
